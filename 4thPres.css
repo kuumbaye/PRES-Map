@@ -1,45 +1,50 @@
+body {
+    width: 50%;
+    position: relative;
+}
+
 #imageOrig {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617.jpg/615188839/4thPRESOffice0617.jpg");
+    content: url("4thPRESOffice0617.jpg");
     display: block;
 }
 
 #imageMobile {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617Mobile.jpg/615188853/4thPRESOffice0617Mobile.jpg");
+    content: url("4thPRESOffice0617Mobile.jpg");
     display: none;
 }
 
 #imagePrinters {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617Printers.jpg/615188829/4thPRESOffice0617Printers.jpg");
+    content: url("4thPRESOffice0617Printers.jpg");
     display: none;
 }
 
 #imageiPad {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617iPad.jpg/615188855/4thPRESOffice0617iPad.jpg");
+    content: url("4thPRESOffice0617iPad.jpg");
     display: none;
 }
 
 #imagePhone {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617Phones.jpg/615188823/4thPRESOffice0617Phones.jpg");
+    content: url("4thPRESOffice0617Phones.jpg");
     display: none;
 }
 
 #imageHotSpot {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617HotSpots.jpg/615188825/4thPRESOffice0617HotSpots.jpg");
+    content: url("4thPRESOffice0617HotSpots.jpg");
     display: none;
 }
 
 #imageNetworked {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617NetworkedP.jpg/615188835/4thPRESOffice0617NetworkedP.jpg");
+    content: url("4thPRESOffice0617NetworkedP.jpg");
     display: none;
 }
 
 #imagePersonal {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617PersonalP.jpg/615188831/4thPRESOffice0617PersonalP.jpg");
+    content: url("4thPRESOffice0617PersonalP.jpg");
     display: none;
 }
 
 #imageAll {
-    content: url("http://utovip.wikispaces.asu.edu/file/view/4thPRESOffice0617All.jpg/615188851/4thPRESOffice0617All.jpg");
+    content: url("4thPRESOffice0617All.jpg");
     display: none;
 }
 
@@ -49,73 +54,73 @@
 
 #Mobile {
     position: absolute;
-    left: 6px;
-    top: 10px;
-    width: 110px;
-    height: 115px;
+    left: 0.05%;
+    top: 0.45%;
+    width: 11.45833%;
+    height: 14.5%;
 }
 
 #Printers {
     position: absolute;
-    left: 121px;
-    top: 10px;
-    width: 110px;
-    height: 115px;
+    left: 12.3%;
+    top: 0.45%;
+    width: 11.45833%;
+    height: 14.5%;
 }
 
 #iPad {
     position: absolute;
-    left: 8px;
-    top: 145px;
-    width: 80px;
-    height: 25px;
+    left: 0.25%;
+    top: 18.2%;
+    width: 6.5%;
+    height: 2.25%;
 }
 
 #Phone {
     position: absolute;
-    left: 8px;
-    top: 195px;
-    width: 80px;
-    height: 25px;
+    left: 0.25%;
+    top: 24.65%;
+    width: 8.5%;
+    height: 2.25%;
 }
 
 #HotSpot {
     position: absolute;
-    left: 8px;
-    top: 245px;
-    width: 100px;
-    height: 25px;
+    left: 0.25%;
+    top: 31.1%;
+    width: 10.25%;
+    height: 2.25%;
 }
 
 #Networked {
     position: absolute;
-    left: 110px;
-    top: 145px;
-    width: 115px;
-    height: 25px;
+    left: 11.1%;
+    top: 18.2%;
+    width: 12.15%;
+    height: 2.25%;
 }
 
 #Personal {
     position: absolute;
-    left: 125px;
-    top: 195px;
-    width: 100px;
-    height: 25px;
+    left: 13%;
+    top: 24.65%;
+    width: 10.25%;
+    height: 2.25%;
 }
 
 #All {
     position: absolute;
-    left: 100px;
-    top: 295px;
-    width: 45px;
-    height: 25px;
+    left: 10.15%;
+    top: 37.5%;
+    width: 3%;
+    height: 2.25%;
 }
 
 #clear {
-    position: fixed;
-    left: 8px;
-    top: 355px;
-    font-size: 18pt;
+    position: absolute;
+    left: 0.35%;
+    top: 44%;
+    font-size: 1.75vw;
     text-decoration: unset;
     color: black;
     cursor: pointer;
