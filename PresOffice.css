@@ -124,16 +124,21 @@ body {
     height: 17.3%;
 }
 
-#userInfo {
+#userInfoContainer {
     position: absolute;
     left: 0.3978125%;
     top: 48.5%;
     width: 23.20198%;
     height: 51.4745%;
+    display: none;
 }
 
 #userName {
     font-size: 4vw;
+}
+
+.userInfo {
+    font-size: 2vw;
 }
 
 #clear {

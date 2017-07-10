@@ -1,4 +1,7 @@
 var imageOrig = document.getElementById("imageOrig");
+var userName = document.getElementById("userName");
+var userInfo = document.getElementsByClassName("userInfo");
+var userInfoState = 0;
 var state = "Orig";
 
 function openOrig() {
@@ -44,4 +47,15 @@ function openPersonal() {
 function openAll() {
     imageOrig.style.content = "url('4thPRESOffice0617All.jpg')";
     state = "All";
+}
+
+function toggleUserInfo() {
+    if (userInfoState == 0) {
+        document.getElementById("userInfoContainer").style.display = "initial";
+        userInfoState = 1;
+    } else {
+        document.getElementById("userInfoContainer").style.display = "none";
+        userInfoState = 0;
+    }
+
 }
