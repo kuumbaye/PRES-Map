@@ -5,49 +5,49 @@ var userInfoState = 0;
 var state = "Orig";
 
 function openOrig() {
-    imageOrig.style.content = "url('4thPRESOffice0617.jpg')";
+    imageOrig.style.content = "url('PRESOffice_Original.jpg')";
     state = "Orig";
     userInfoState = 1;
     toggleUserInfo();
 }
 
 function openMobile() {
-    imageOrig.style.content = "url('4thPRESOffice0617Mobile.jpg')";
+    imageOrig.style.content = "url('PRESOffice_Mobile.jpg')";
     state = "Mobile";
 }
 
 function openPrinters() {
-    imageOrig.style.content = "url('4thPRESOffice0617Printers.jpg')";
+    imageOrig.style.content = "url('PRESOffice_Printers.jpg')";
     state = "Printers";
 }
 
 function openiPad() {
-    imageOrig.style.content = "url('4thPRESOffice0617iPad.jpg')";
+    imageOrig.style.content = "url('PRESOffice_iPads.jpg')";
     state = "iPad";
 }
 
 function openPhone() {
-    imageOrig.style.content = "url('4thPRESOffice0617Phones.jpg')";
+    imageOrig.style.content = "url('PRESOffice_Phones.jpg')";
     state = "Phone";
 }
 
 function openHotSpot() {
-    imageOrig.style.content = "url('4thPRESOffice0617HotSpots.jpg')";
+    imageOrig.style.content = "url('PRESOffice_Hotspots.jpg')";
     state = "HotSpot";
 }
 
 function openNetworked() {
-    imageOrig.style.content = "url('4thPRESOffice0617NetworkedP.jpg')";
+    imageOrig.style.content = "url('PRESOffice_NetworkedPrinters.jpg')";
     state = "Networked";
 }
 
 function openPersonal() {
-    imageOrig.style.content = "url('4thPRESOffice0617PersonalP.jpg')";
+    imageOrig.style.content = "url('PRESOffice_PersonalPrinters.jpg')";
     state = "Personal";
 }
 
 function openAll() {
-    imageOrig.style.content = "url('4thPRESOffice0617All.jpg')";
+    imageOrig.style.content = "url('PRESOffice_All.jpg')";
     state = "All";
 }
 

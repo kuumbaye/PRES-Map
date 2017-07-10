@@ -5,47 +5,47 @@ body {
 }
 
 #imageOrig {
-    content: url("4thPRESOffice0617.jpg");
+    content: url("PRESOffice_Original.jpg");
     display: block;
 }
 
 #imageMobile {
-    content: url("4thPRESOffice0617Mobile.jpg");
+    content: url("PRESOffice_Mobile.jpg");
     display: none;
 }
 
 #imagePrinters {
-    content: url("4thPRESOffice0617Printers.jpg");
+    content: url("PRESOffice_Printers.jpg");
     display: none;
 }
 
 #imageiPad {
-    content: url("4thPRESOffice0617iPad.jpg");
+    content: url("PRESOffice_iPads.jpg");
     display: none;
 }
 
 #imagePhone {
-    content: url("4thPRESOffice0617Phones.jpg");
+    content: url("PRESOffice_Phones.jpg");
     display: none;
 }
 
 #imageHotSpot {
-    content: url("4thPRESOffice0617HotSpots.jpg");
+    content: url("PRESOffice_Hotspots.jpg");
     display: none;
 }
 
 #imageNetworked {
-    content: url("4thPRESOffice0617NetworkedP.jpg");
+    content: url("PRESOffice_NetworkedPrinters.jpg");
     display: none;
 }
 
 #imagePersonal {
-    content: url("4thPRESOffice0617PersonalP.jpg");
+    content: url("PRESOffice_PersonalPrinters.jpg");
     display: none;
 }
 
 #imageAll {
-    content: url("4thPRESOffice0617All.jpg");
+    content: url("PRESOffice_All.jpg");
     display: none;
 }
 
