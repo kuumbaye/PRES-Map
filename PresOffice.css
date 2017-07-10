@@ -116,6 +116,26 @@ body {
     height: 2.25%;
 }
 
+#RichStanley {
+    position: absolute;
+    left: 25.1%;
+    top: 1.25%;
+    width: 9.45266%;
+    height: 17.3%;
+}
+
+#userInfo {
+    position: absolute;
+    left: 0.3978125%;
+    top: 48.5%;
+    width: 23.20198%;
+    height: 51.4745%;
+}
+
+#userName {
+    font-size: 4vw;
+}
+
 #clear {
     position: absolute;
     left: 0.35%;
