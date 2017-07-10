@@ -7,6 +7,8 @@ var state = "Orig";
 function openOrig() {
     imageOrig.style.content = "url('4thPRESOffice0617.jpg')";
     state = "Orig";
+    userInfoState = 1;
+    toggleUserInfo();
 }
 
 function openMobile() {
