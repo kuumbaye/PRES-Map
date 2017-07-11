@@ -3,12 +3,13 @@ var userName = document.getElementById("userName");
 var userInfo = document.getElementsByClassName("userInfo");
 var userInfoState = 0;
 var state = "Orig";
+var prevTarget = "";
 
 function openOrig() {
     imageOrig.style.content = "url('PRESOffice_Original.jpg')";
     state = "Orig";
-    userInfoState = 1;
-    toggleUserInfo();
+    userInfoState = 0;
+    document.getElementById("userInfoContainer").style.display = "none";
 }
 
 function openMobile() {
@@ -51,13 +52,19 @@ function openAll() {
     state = "All";
 }
 
-function toggleUserInfo() {
+function toggleUserInfo(e) {
+
     if (userInfoState == 0) {
         document.getElementById("userInfoContainer").style.display = "initial";
         userInfoState = 1;
-    } else {
+        prevTarget = e.target.id;
+    } else if (userInfoState == 1 && prevTarget == e.target.id) {
         document.getElementById("userInfoContainer").style.display = "none";
         userInfoState = 0;
+        prevTarget = e.target.id;
+    } else {
+        document.getElementById("userInfoContainer").style.display = "initial";
+        prevTarget = e.target.id;
+        // Change the info in the container here
     }
-
 }
